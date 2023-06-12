@@ -11,7 +11,7 @@ import Modal from './components/Modal';
 function App() {
   const location = useLocation();
   const [pizza, setPizza] = useState({ base: "", toppings: [] });
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
   const addBase = (base) => {
     setPizza({ ...pizza, base })
   }
